@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default function SurpriseButton(props) {
-    return <button>Surprise!</button>;
+    return <button onClick={props.onClick}>Surprise!</button>;
 }
